@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+  height: 60vw;
+  width: 80vw;
+  box-shadow: 5vw 5vw 20vw cornflowerblue;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFfFytwTdLreDEFQoHntfacX9ebupR3dKtg&usqp=CAU");
+  color: white;
+  border-radius: 4vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
